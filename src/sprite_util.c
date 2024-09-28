@@ -1967,7 +1967,7 @@ void SpriteUtilUpdateFreezeTimer(void)
 }
 
 /**
- * @brief 1004c | 58 | Updates the freeze timer of the current sprite (easy mode)
+ * @brief 1004c | 58 | Updates the freeze timer of the current sprite (easy mode metroid or winged ripper)
  * 
  */
 void SpriteUtilUnfreezeAnimEasy(void)
