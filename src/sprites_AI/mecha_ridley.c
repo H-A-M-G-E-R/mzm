@@ -1050,7 +1050,7 @@ void MechaRidleyDying(void)
         gCurrentSprite.pose = MECHA_RIDLEY_POSE_DYING_GLOW_FADING;
         gCurrentSprite.work0 = 0;
 
-        SoundPlay(SOUND_MECA_RIDLEY_POWERING_OFF);
+        SoundPlay(SOUND_MECHA_RIDLEY_POWERING_OFF);
 
         // Disable alarm
         gDisableAnimatedPalette = -1;
