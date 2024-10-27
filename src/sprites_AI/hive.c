@@ -445,7 +445,7 @@ void MellowSamusDetectedInit(struct SpriteData* pSprite)
 #ifdef NON_MATCHING
 void MellowMove(struct SpriteData* pSprite)
 {
-    // https://decomp.me/scratch/o7G5U
+    // https://decomp.me/scratch/rmv4U
     
     struct SpriteData* pMellow;
     u8 offset;
@@ -474,6 +474,7 @@ void MellowMove(struct SpriteData* pSprite)
     
     for (pMellow = gSpriteData + ramSlot; pMellow < gSpriteData + MAX_AMOUNT_OF_SPRITES; pMellow++)
     {
+        pMellow++, pMellow--;
         if (!(pMellow->status & SPRITE_STATUS_EXISTS))
             continue;
 
@@ -698,8 +699,7 @@ void MellowMove(struct SpriteData* pSprite)
     if (flip)
     {
         pSprite->status ^= SPRITE_STATUS_FACING_DOWN;
-        ///pSprite->work3 = 1;
-        gCurrentSprite.work3 = 1;
+        pSprite->work3 = 1;
     }
 
     pSprite->scaling--;
