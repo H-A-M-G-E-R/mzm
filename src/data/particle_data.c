@@ -559,12 +559,12 @@ const u16 sParticleHittingSomethingWithNormalBeamOam_Frame1[OAM_DATA_SIZE(1)] = 
 
 const u16 sParticleHittingSomethingWithNormalBeamOam_Frame2[OAM_DATA_SIZE(1)] = {
     1,
-    OAM_ENTRY(-4, -4, OAM_DIMS_8x8, OAM_NO_FLIP, 0x1c9, 2, 0)
+    OAM_ENTRY(-4, -4, OAM_DIMS_8x8, OAM_NO_FLIP, 0x92, 2, 0)
 };
 
 const u16 sParticleHittingSomethingWithNormalBeamOam_Frame3[OAM_DATA_SIZE(1)] = {
     1,
-    OAM_ENTRY(-4, -4, OAM_DIMS_8x8, OAM_NO_FLIP, 0x1e9, 2, 0)
+    OAM_ENTRY(-4, -4, OAM_DIMS_8x8, OAM_NO_FLIP, 0xb2, 2, 0)
 };
 
 const u16 sParticleHittingSomethingWithLongBeamOam_Frame2[OAM_DATA_SIZE(2)] = {
@@ -575,8 +575,8 @@ const u16 sParticleHittingSomethingWithLongBeamOam_Frame2[OAM_DATA_SIZE(2)] = {
 
 const u16 sParticleHittingSomethingWithLongBeamOam_Frame3[OAM_DATA_SIZE(2)] = {
     2,
-    OAM_ENTRY(-8, -8, OAM_DIMS_8x16, OAM_NO_FLIP, 0x109, 2, 0),
-    OAM_ENTRY(0, -8, OAM_DIMS_8x16, OAM_X_FLIP, 0x109, 2, 0)
+    OAM_ENTRY(-8, -8, OAM_DIMS_8x16, OAM_NO_FLIP, 0x93, 2, 0),
+    OAM_ENTRY(0, -8, OAM_DIMS_8x16, OAM_X_FLIP, 0x93, 2, 0)
 };
 
 const u16 sParticleHittingSomethingWithIceBeamOam_Frame3[OAM_DATA_SIZE(2)] = {
@@ -587,10 +587,10 @@ const u16 sParticleHittingSomethingWithIceBeamOam_Frame3[OAM_DATA_SIZE(2)] = {
 
 const u16 sParticleHittingSomethingWithIceBeamOam_Frame4[OAM_DATA_SIZE(4)] = {
     4,
-    OAM_ENTRY(-12, -12, OAM_DIMS_16x8, OAM_NO_FLIP, 0x145, 2, 0),
-    OAM_ENTRY(-4, 4, OAM_DIMS_16x8, OAM_XY_FLIP, 0x145, 2, 0),
-    OAM_ENTRY(-12, -4, OAM_DIMS_8x16, OAM_Y_FLIP, 0x145, 2, 0),
-    OAM_ENTRY(4, -12, OAM_DIMS_8x16, OAM_X_FLIP, 0x145, 2, 0)
+    OAM_ENTRY(-12, -12, OAM_DIMS_16x8, OAM_NO_FLIP, 0x92, 2, 0),
+    OAM_ENTRY(-4, 4, OAM_DIMS_16x8, OAM_XY_FLIP, 0x92, 2, 0),
+    OAM_ENTRY(-12, -4, OAM_DIMS_8x16, OAM_Y_FLIP, 0x92, 2, 0),
+    OAM_ENTRY(4, -12, OAM_DIMS_8x16, OAM_X_FLIP, 0x92, 2, 0)
 };
 
 const u16 sParticleHittingSomethingWithWaveBeamOam_Frame4[OAM_DATA_SIZE(4)] = {
@@ -603,18 +603,18 @@ const u16 sParticleHittingSomethingWithWaveBeamOam_Frame4[OAM_DATA_SIZE(4)] = {
 
 const u16 sParticleHittingSomethingWithWaveBeamOam_Frame5[OAM_DATA_SIZE(4)] = {
     4,
-    OAM_ENTRY(-16, -16, OAM_DIMS_16x16, OAM_NO_FLIP, 0x149, 2, 0),
-    OAM_ENTRY(0, -16, OAM_DIMS_16x16, OAM_X_FLIP, 0x149, 2, 0),
-    OAM_ENTRY(-16, 0, OAM_DIMS_16x16, OAM_Y_FLIP, 0x149, 2, 0),
-    OAM_ENTRY(0, 0, OAM_DIMS_16x16, OAM_XY_FLIP, 0x149, 2, 0)
+    OAM_ENTRY(-16, -16, OAM_DIMS_16x16, OAM_NO_FLIP, 0x92, 2, 0),
+    OAM_ENTRY(0, -16, OAM_DIMS_16x16, OAM_X_FLIP, 0x92, 2, 0),
+    OAM_ENTRY(-16, 0, OAM_DIMS_16x16, OAM_Y_FLIP, 0x92, 2, 0),
+    OAM_ENTRY(0, 0, OAM_DIMS_16x16, OAM_XY_FLIP, 0x92, 2, 0)
 };
 
 const u16 sParticleHittingSomethingWithPlasmaBeamOam_Frame5[OAM_DATA_SIZE(4)] = {
     4,
-    OAM_ENTRY(-16, -16, OAM_DIMS_16x16, OAM_NO_FLIP, 0x147, 2, 0),
-    OAM_ENTRY(0, -16, OAM_DIMS_16x16, OAM_X_FLIP, 0x147, 2, 0),
-    OAM_ENTRY(-16, 0, OAM_DIMS_16x16, OAM_Y_FLIP, 0x147, 2, 0),
-    OAM_ENTRY(0, 0, OAM_DIMS_16x16, OAM_XY_FLIP, 0x147, 2, 0)
+    OAM_ENTRY(-16, -16, OAM_DIMS_16x16, OAM_NO_FLIP, 0x92, 2, 0),
+    OAM_ENTRY(0, -16, OAM_DIMS_16x16, OAM_X_FLIP, 0x92, 2, 0),
+    OAM_ENTRY(-16, 0, OAM_DIMS_16x16, OAM_Y_FLIP, 0x92, 2, 0),
+    OAM_ENTRY(0, 0, OAM_DIMS_16x16, OAM_XY_FLIP, 0x92, 2, 0)
 };
 
 const u16 sParticleHittingSomethingInvincible_Frame0[OAM_DATA_SIZE(1)] = {
