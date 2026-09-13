@@ -74,13 +74,13 @@ extern const u16 sParticleChargingBeamBeginOam_Frame2[4];
 
 extern const u16 sParticleChargingBeamBeginOam_Frame3[4];
 
-extern const u16 sParticleChargingBeamBeginOam_Frame6[7];
+extern const u16 sParticleChargingBeamBeginOam_Frame6[4];
 
-extern const u16 sParticleChargingBeamBeginOam_Frame10[7];
+extern const u16 sParticleChargingBeamBeginOam_Frame10[4];
 
-extern const u16 sParticleChargingBeamBeginOam_Frame16[16];
+extern const u16 sParticleChargingBeamBeginOam_Frame16[13];
 
-extern const u16 sParticleChargingBeamChargedOam_Frame1[16];
+extern const u16 sParticleChargingBeamChargedOam_Frame1[13];
 
 extern const struct FrameData sParticleShootingBeamHorizontalOam[5];
 
@@ -527,6 +527,10 @@ extern const struct FrameData sWaterDropOam_Splashing[6];
 extern const struct FrameData sSpriteDebrisOam[5];
 
 extern const struct FrameData sSpriteDebrisOam_Unused[7];
+
+extern const u8 sChargingBeamGfx[0x400];
+
+extern const u8 sBeamHitGfx[0x200];
 
 // 833bd34
 

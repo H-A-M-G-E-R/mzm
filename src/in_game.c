@@ -15,6 +15,7 @@
 #include "display.h"
 
 #include "data/hud_data.h"
+#include "data/particle_data.h"
 
 #include "constants/demo.h"
 #include "constants/haze.h"
@@ -299,6 +300,56 @@ void TransferSamusGraphics(u32 updatePalette, struct SamusPhysics* pPhysics)
 
     if (updatePalette)
         DMA3_COPY_16(gSamusPalette, PALRAM_OBJ, gSamusPaletteSize / 2);
+    
+    switch (pPhysics->chargingBeamDma)
+    {
+        case 1:
+            DMA3_COPY_16(sChargingBeamGfx + 0 * 0x20, VRAM_OBJ + 0x90 * 0x20, 0x20);
+            DMA3_COPY_16(sChargingBeamGfx + 2 * 0x20, VRAM_OBJ + 0xB0 * 0x20, 0x20);
+            break;
+
+        case 2:
+            DMA3_COPY_16(sChargingBeamGfx + 4 * 0x20, VRAM_OBJ + 0x90 * 0x20, 0x20);
+            DMA3_COPY_16(sChargingBeamGfx + 6 * 0x20, VRAM_OBJ + 0xB0 * 0x20, 0x20);
+            break;
+
+        case 3:
+            DMA3_COPY_16(sChargingBeamGfx + 8 * 0x20, VRAM_OBJ + 0x90 * 0x20, 0x10);
+            break;
+
+        case 4:
+            DMA3_COPY_16(sChargingBeamGfx + 9 * 0x20, VRAM_OBJ + 0x90 * 0x20, 0x10);
+            break;
+
+        case 5:
+            DMA3_COPY_16(sChargingBeamGfx + 10 * 0x20, VRAM_OBJ + 0x90 * 0x20, 0x20);
+            DMA3_COPY_16(sChargingBeamGfx + 12 * 0x20, VRAM_OBJ + 0xB0 * 0x20, 0x20);
+            break;
+
+        case 6:
+            DMA3_COPY_16(sChargingBeamGfx + 14 * 0x20, VRAM_OBJ + 0x90 * 0x20, 0x20);
+            DMA3_COPY_16(sChargingBeamGfx + 16 * 0x20, VRAM_OBJ + 0xB0 * 0x20, 0x20);
+            break;
+
+        case 7:
+            DMA3_COPY_16(sChargingBeamGfx + 18 * 0x20, VRAM_OBJ + 0x90 * 0x20, 0x20);
+            DMA3_COPY_16(sChargingBeamGfx + 20 * 0x20, VRAM_OBJ + 0xB0 * 0x20, 0x20);
+            break;
+
+        case 8:
+            DMA3_COPY_16(sChargingBeamGfx + 22 * 0x20, VRAM_OBJ + 0x90 * 0x20, 0x20);
+            DMA3_COPY_16(sChargingBeamGfx + 24 * 0x20, VRAM_OBJ + 0xB0 * 0x20, 0x20);
+            break;
+
+        case 9:
+            DMA3_COPY_16(sChargingBeamGfx + 26 * 0x20, VRAM_OBJ + 0x90 * 0x20, 0x20);
+            DMA3_COPY_16(sChargingBeamGfx + 28 * 0x20, VRAM_OBJ + 0xB0 * 0x20, 0x20);
+            break;
+
+        case 10:
+            DMA3_COPY_16(sChargingBeamGfx + 30 * 0x20, VRAM_OBJ + 0x90 * 0x20, 0x10);
+            break;
+    }
 }
 
 /**

@@ -1,119 +1,159 @@
 #include "data/particle_data.h"
 #include "macros.h"
 
+static const u8 sParticleShootingBeamHorizontalDmaIdentifier_Frame0 = 9;
+
 const u16 sParticleShootingBeamHorizontalOam_Frame0[OAM_DATA_SIZE(1)] = {
     1,
-    OAM_ENTRY(-8, -8, OAM_DIMS_16x16, OAM_NO_FLIP, 0x180, 2, 0)
+    OAM_ENTRY(-8, -8, OAM_DIMS_16x16, OAM_NO_FLIP, 0x90, 2, 0)
 };
+
+static const u8 sParticleShootingBeamHorizontalDmaIdentifier_Frame1 = 10;
 
 const u16 sParticleShootingBeamHorizontalOam_Frame1[OAM_DATA_SIZE(3)] = {
     3,
-    OAM_ENTRY(-1, -5, OAM_DIMS_8x8, OAM_NO_FLIP, 0x182, 2, 0),
-    OAM_ENTRY(-7, -9, OAM_DIMS_8x8, OAM_NO_FLIP, 0x182, 2, 0),
-    OAM_ENTRY(-7, 1, OAM_DIMS_8x8, OAM_NO_FLIP, 0x182, 2, 0)
+    OAM_ENTRY(-1, -5, OAM_DIMS_8x8, OAM_NO_FLIP, 0x90, 2, 0),
+    OAM_ENTRY(-7, -9, OAM_DIMS_8x8, OAM_NO_FLIP, 0x90, 2, 0),
+    OAM_ENTRY(-7, 1, OAM_DIMS_8x8, OAM_NO_FLIP, 0x90, 2, 0)
 };
+
+static const u8 sParticleShootingBeamHorizontalDmaIdentifier_Frame2 = 9;
 
 const u16 sParticleShootingBeamHorizontalOam_Frame2[OAM_DATA_SIZE(1)] = {
     1,
-    OAM_ENTRY(-6, -8, OAM_DIMS_16x16, OAM_NO_FLIP, 0x180, 2, 0)
+    OAM_ENTRY(-6, -8, OAM_DIMS_16x16, OAM_NO_FLIP, 0x90, 2, 0)
 };
+
+static const u8 sParticleShootingBeamHorizontalDmaIdentifier_Frame3 = 10;
 
 const u16 sParticleShootingBeamHorizontalOam_Frame3[OAM_DATA_SIZE(2)] = {
     2,
-    OAM_ENTRY(-2, -10, OAM_DIMS_8x8, OAM_XY_FLIP, 0x182, 2, 0),
-    OAM_ENTRY(-1, 3, OAM_DIMS_8x8, OAM_XY_FLIP, 0x182, 2, 0)
+    OAM_ENTRY(-2, -10, OAM_DIMS_8x8, OAM_XY_FLIP, 0x90, 2, 0),
+    OAM_ENTRY(-1, 3, OAM_DIMS_8x8, OAM_XY_FLIP, 0x90, 2, 0)
 };
+
+static const u8 sParticleShootingBeamDiagonallyUpDmaIdentifier_Frame0 = 9;
 
 const u16 sParticleShootingBeamDiagonallyUpOam_Frame0[OAM_DATA_SIZE(1)] = {
     1,
-    OAM_ENTRY(-8, -8, OAM_DIMS_16x16, OAM_NO_FLIP, 0x180, 2, 0)
+    OAM_ENTRY(-8, -8, OAM_DIMS_16x16, OAM_NO_FLIP, 0x90, 2, 0)
 };
+
+static const u8 sParticleShootingBeamDiagonallyUpDmaIdentifier_Frame1 = 10;
 
 const u16 sParticleShootingBeamDiagonallyUpOam_Frame1[OAM_DATA_SIZE(3)] = {
     3,
-    OAM_ENTRY(-1, 1, OAM_DIMS_8x8, OAM_NO_FLIP, 0x182, 2, 0),
-    OAM_ENTRY(-2, -9, OAM_DIMS_8x8, OAM_NO_FLIP, 0x182, 2, 0),
-    OAM_ENTRY(-10, -2, OAM_DIMS_8x8, OAM_NO_FLIP, 0x182, 2, 0)
+    OAM_ENTRY(-1, 1, OAM_DIMS_8x8, OAM_NO_FLIP, 0x90, 2, 0),
+    OAM_ENTRY(-2, -9, OAM_DIMS_8x8, OAM_NO_FLIP, 0x90, 2, 0),
+    OAM_ENTRY(-10, -2, OAM_DIMS_8x8, OAM_NO_FLIP, 0x90, 2, 0)
 };
+
+static const u8 sParticleShootingBeamDiagonallyUpDmaIdentifier_Frame2 = 9;
 
 const u16 sParticleShootingBeamDiagonallyUpOam_Frame2[OAM_DATA_SIZE(1)] = {
     1,
-    OAM_ENTRY(-6, -6, OAM_DIMS_16x16, OAM_NO_FLIP, 0x180, 2, 0)
+    OAM_ENTRY(-6, -6, OAM_DIMS_16x16, OAM_NO_FLIP, 0x90, 2, 0)
 };
+
+static const u8 sParticleShootingBeamDiagonallyUpDmaIdentifier_Frame3 = 10;
 
 const u16 sParticleShootingBeamDiagonallyUpOam_Frame3[OAM_DATA_SIZE(2)] = {
     2,
-    OAM_ENTRY(1, -5, OAM_DIMS_8x8, OAM_XY_FLIP, 0x182, 2, 0),
-    OAM_ENTRY(-5, 3, OAM_DIMS_8x8, OAM_XY_FLIP, 0x182, 2, 0)
+    OAM_ENTRY(1, -5, OAM_DIMS_8x8, OAM_XY_FLIP, 0x90, 2, 0),
+    OAM_ENTRY(-5, 3, OAM_DIMS_8x8, OAM_XY_FLIP, 0x90, 2, 0)
 };
+
+static const u8 sParticleShootingBeamDiagonallyDownDmaIdentifier_Frame0 = 9;
 
 const u16 sParticleShootingBeamDiagonallyDownOam_Frame0[OAM_DATA_SIZE(1)] = {
     1,
-    OAM_ENTRY(-8, -8, OAM_DIMS_16x16, OAM_NO_FLIP, 0x180, 2, 0)
+    OAM_ENTRY(-8, -8, OAM_DIMS_16x16, OAM_NO_FLIP, 0x90, 2, 0)
 };
+
+static const u8 sParticleShootingBeamDiagonallyDownDmaIdentifier_Frame1 = 10;
 
 const u16 sParticleShootingBeamDiagonallyDownOam_Frame1[OAM_DATA_SIZE(3)] = {
     3,
-    OAM_ENTRY(-1, -5, OAM_DIMS_8x8, OAM_NO_FLIP, 0x182, 2, 0),
-    OAM_ENTRY(-8, -7, OAM_DIMS_8x8, OAM_NO_FLIP, 0x182, 2, 0),
-    OAM_ENTRY(0, 1, OAM_DIMS_8x8, OAM_NO_FLIP, 0x182, 2, 0)
+    OAM_ENTRY(-1, -5, OAM_DIMS_8x8, OAM_NO_FLIP, 0x90, 2, 0),
+    OAM_ENTRY(-8, -7, OAM_DIMS_8x8, OAM_NO_FLIP, 0x90, 2, 0),
+    OAM_ENTRY(0, 1, OAM_DIMS_8x8, OAM_NO_FLIP, 0x90, 2, 0)
 };
+
+static const u8 sParticleShootingBeamDiagonallyDownDmaIdentifier_Frame2 = 9;
 
 const u16 sParticleShootingBeamDiagonallyDownOam_Frame2[OAM_DATA_SIZE(1)] = {
     1,
-    OAM_ENTRY(-6, -9, OAM_DIMS_16x16, OAM_NO_FLIP, 0x180, 2, 0)
+    OAM_ENTRY(-6, -9, OAM_DIMS_16x16, OAM_NO_FLIP, 0x90, 2, 0)
 };
+
+static const u8 sParticleShootingBeamDiagonallyDownDmaIdentifier_Frame3 = 10;
 
 const u16 sParticleShootingBeamDiagonallyDownOam_Frame3[OAM_DATA_SIZE(2)] = {
     2,
-    OAM_ENTRY(-6, -10, OAM_DIMS_8x8, OAM_XY_FLIP, 0x182, 2, 0),
-    OAM_ENTRY(2, -2, OAM_DIMS_8x8, OAM_XY_FLIP, 0x182, 2, 0)
+    OAM_ENTRY(-6, -10, OAM_DIMS_8x8, OAM_XY_FLIP, 0x90, 2, 0),
+    OAM_ENTRY(2, -2, OAM_DIMS_8x8, OAM_XY_FLIP, 0x90, 2, 0)
 };
+
+static const u8 sParticleShootingBeamUpDmaIdentifier_Frame0 = 9;
 
 const u16 sParticleShootingBeamUpOam_Frame0[OAM_DATA_SIZE(1)] = {
     1,
-    OAM_ENTRY(-8, -8, OAM_DIMS_16x16, OAM_NO_FLIP, 0x180, 2, 0)
+    OAM_ENTRY(-8, -8, OAM_DIMS_16x16, OAM_NO_FLIP, 0x90, 2, 0)
 };
+
+static const u8 sParticleShootingBeamUpDmaIdentifier_Frame1 = 10;
 
 const u16 sParticleShootingBeamUpOam_Frame1[OAM_DATA_SIZE(3)] = {
     3,
-    OAM_ENTRY(-4, 0, OAM_DIMS_8x8, OAM_NO_FLIP, 0x182, 2, 0),
-    OAM_ENTRY(0, -7, OAM_DIMS_8x8, OAM_NO_FLIP, 0x182, 2, 0),
-    OAM_ENTRY(-10, -7, OAM_DIMS_8x8, OAM_NO_FLIP, 0x182, 2, 0)
+    OAM_ENTRY(-4, 0, OAM_DIMS_8x8, OAM_NO_FLIP, 0x90, 2, 0),
+    OAM_ENTRY(0, -7, OAM_DIMS_8x8, OAM_NO_FLIP, 0x90, 2, 0),
+    OAM_ENTRY(-10, -7, OAM_DIMS_8x8, OAM_NO_FLIP, 0x90, 2, 0)
 };
+
+static const u8 sParticleShootingBeamUpDmaIdentifier_Frame2 = 9;
 
 const u16 sParticleShootingBeamUpOam_Frame2[OAM_DATA_SIZE(1)] = {
     1,
-    OAM_ENTRY(-8, -6, OAM_DIMS_16x16, OAM_NO_FLIP, 0x180, 2, 0)
+    OAM_ENTRY(-8, -6, OAM_DIMS_16x16, OAM_NO_FLIP, 0x90, 2, 0)
 };
+
+static const u8 sParticleShootingBeamUpDmaIdentifier_Frame3 = 10;
 
 const u16 sParticleShootingBeamUpOam_Frame3[OAM_DATA_SIZE(2)] = {
     2,
-    OAM_ENTRY(3, 0, OAM_DIMS_8x8, OAM_XY_FLIP, 0x182, 2, 0),
-    OAM_ENTRY(-10, 0, OAM_DIMS_8x8, OAM_XY_FLIP, 0x182, 2, 0)
+    OAM_ENTRY(3, 0, OAM_DIMS_8x8, OAM_XY_FLIP, 0x90, 2, 0),
+    OAM_ENTRY(-10, 0, OAM_DIMS_8x8, OAM_XY_FLIP, 0x90, 2, 0)
 };
+
+static const u8 sParticleShootingBeamDownDmaIdentifier_Frame0 = 9;
 
 const u16 sParticleShootingBeamDownOam_Frame0[OAM_DATA_SIZE(1)] = {
     1,
-    OAM_ENTRY(-8, -8, OAM_DIMS_16x16, OAM_NO_FLIP, 0x180, 2, 0)
+    OAM_ENTRY(-8, -8, OAM_DIMS_16x16, OAM_NO_FLIP, 0x90, 2, 0)
 };
+
+static const u8 sParticleShootingBeamDownDmaIdentifier_Frame1 = 10;
 
 const u16 sParticleShootingBeamDownOam_Frame1[OAM_DATA_SIZE(3)] = {
     3,
-    OAM_ENTRY(-4, -8, OAM_DIMS_8x8, OAM_Y_FLIP, 0x182, 2, 0),
-    OAM_ENTRY(0, -1, OAM_DIMS_8x8, OAM_Y_FLIP, 0x182, 2, 0),
-    OAM_ENTRY(-10, -1, OAM_DIMS_8x8, OAM_Y_FLIP, 0x182, 2, 0)
+    OAM_ENTRY(-4, -8, OAM_DIMS_8x8, OAM_Y_FLIP, 0x90, 2, 0),
+    OAM_ENTRY(0, -1, OAM_DIMS_8x8, OAM_Y_FLIP, 0x90, 2, 0),
+    OAM_ENTRY(-10, -1, OAM_DIMS_8x8, OAM_Y_FLIP, 0x90, 2, 0)
 };
+
+static const u8 sParticleShootingBeamDownDmaIdentifier_Frame2 = 9;
 
 const u16 sParticleShootingBeamDownOam_Frame2[OAM_DATA_SIZE(1)] = {
     1,
-    OAM_ENTRY(-8, -10, OAM_DIMS_16x16, OAM_Y_FLIP, 0x180, 2, 0)
+    OAM_ENTRY(-8, -10, OAM_DIMS_16x16, OAM_Y_FLIP, 0x90, 2, 0)
 };
+
+static const u8 sParticleShootingBeamDownDmaIdentifier_Frame3 = 10;
 
 const u16 sParticleShootingBeamDownOam_Frame3[OAM_DATA_SIZE(2)] = {
     2,
-    OAM_ENTRY(3, -8, OAM_DIMS_8x8, OAM_X_FLIP, 0x182, 2, 0),
-    OAM_ENTRY(-10, -8, OAM_DIMS_8x8, OAM_X_FLIP, 0x182, 2, 0)
+    OAM_ENTRY(3, -8, OAM_DIMS_8x8, OAM_X_FLIP, 0x90, 2, 0),
+    OAM_ENTRY(-10, -8, OAM_DIMS_8x8, OAM_X_FLIP, 0x90, 2, 0)
 };
 
 const u16 sParticleBombOam_Frame0[OAM_DATA_SIZE(4)] = {
@@ -189,54 +229,66 @@ const u16 sParticleBeamTrailingOam_Frame4[OAM_DATA_SIZE(1)] = {
     OAM_ENTRY(-4, -4, OAM_DIMS_8x8, OAM_NO_FLIP, 0x1a2, 2, 0)
 };
 
+static const u8 sChargingBeamDmaIdentifier_1 = 1;
+
 const u16 sParticleChargingBeamBeginOam_Frame0[OAM_DATA_SIZE(1)] = {
     1,
-    OAM_ENTRY(-8, -8, OAM_DIMS_16x16, OAM_NO_FLIP, 0x97, 2, 0)
+    OAM_ENTRY(-8, -8, OAM_DIMS_16x16, OAM_NO_FLIP, 0x90, 2, 0)
 };
+
+static const u8 sChargingBeamDmaIdentifier_2 = 2;
 
 const u16 sParticleChargingBeamBeginOam_Frame1[OAM_DATA_SIZE(1)] = {
     1,
-    OAM_ENTRY(-8, -8, OAM_DIMS_16x16, OAM_NO_FLIP, 0x95, 2, 0)
+    OAM_ENTRY(-8, -8, OAM_DIMS_16x16, OAM_NO_FLIP, 0x90, 2, 0)
 };
+
+static const u8 sChargingBeamDmaIdentifier_3 = 3;
 
 const u16 sParticleChargingBeamBeginOam_Frame2[OAM_DATA_SIZE(1)] = {
     1,
-    OAM_ENTRY(-4, -4, OAM_DIMS_8x8, OAM_NO_FLIP, 0x166, 2, 0)
-};
-
-const u16 sParticleChargingBeamBeginOam_Frame3[OAM_DATA_SIZE(1)] = {
-    1,
-    OAM_ENTRY(-4, -4, OAM_DIMS_8x8, OAM_NO_FLIP, 0x1c8, 2, 0)
-};
-
-const u16 sParticleChargingBeamBeginOam_Frame6[OAM_DATA_SIZE(2)] = {
-    2,
-    OAM_ENTRY(-8, -8, OAM_DIMS_16x16, OAM_NO_FLIP, 0x95, 2, 0),
     OAM_ENTRY(-4, -4, OAM_DIMS_8x8, OAM_NO_FLIP, 0x90, 2, 0)
 };
 
-const u16 sParticleChargingBeamBeginOam_Frame10[OAM_DATA_SIZE(2)] = {
-    2,
-    OAM_ENTRY(-8, -8, OAM_DIMS_16x16, OAM_NO_FLIP, 0x97, 2, 0),
-    OAM_ENTRY(-4, -4, OAM_DIMS_8x8, OAM_NO_FLIP, 0xb0, 2, 0)
+static const u8 sChargingBeamDmaIdentifier_4 = 4;
+
+const u16 sParticleChargingBeamBeginOam_Frame3[OAM_DATA_SIZE(1)] = {
+    1,
+    OAM_ENTRY(-4, -4, OAM_DIMS_8x8, OAM_NO_FLIP, 0x90, 2, 0)
 };
 
-const u16 sParticleChargingBeamBeginOam_Frame16[OAM_DATA_SIZE(5)] = {
-    5,
-    OAM_ENTRY(-12, -12, OAM_DIMS_16x16, OAM_NO_FLIP, 0x99, 2, 0),
-    OAM_ENTRY(4, -12, OAM_DIMS_8x16, OAM_X_FLIP, 0x99, 2, 0),
-    OAM_ENTRY(-12, 4, OAM_DIMS_16x8, OAM_Y_FLIP, 0x99, 2, 0),
-    OAM_ENTRY(4, 4, OAM_DIMS_8x8, OAM_XY_FLIP, 0x99, 2, 0),
-    OAM_ENTRY(-8, -8, OAM_DIMS_16x16, OAM_NO_FLIP, 0x91, 2, 0)
+static const u8 sChargingBeamDmaIdentifier_5 = 5;
+
+const u16 sParticleChargingBeamBeginOam_Frame6[OAM_DATA_SIZE(1)] = {
+    1,
+    OAM_ENTRY(-8, -8, OAM_DIMS_16x16, OAM_NO_FLIP, 0x90, 2, 0)
 };
 
-const u16 sParticleChargingBeamChargedOam_Frame1[OAM_DATA_SIZE(5)] = {
-    5,
-    OAM_ENTRY(-12, -12, OAM_DIMS_16x16, OAM_NO_FLIP, 0x9b, 2, 0),
-    OAM_ENTRY(4, -12, OAM_DIMS_8x16, OAM_X_FLIP, 0x9b, 2, 0),
-    OAM_ENTRY(-12, 4, OAM_DIMS_16x8, OAM_Y_FLIP, 0x9b, 2, 0),
-    OAM_ENTRY(4, 4, OAM_DIMS_8x8, OAM_XY_FLIP, 0x9b, 2, 0),
-    OAM_ENTRY(-8, -8, OAM_DIMS_16x16, OAM_NO_FLIP, 0x93, 2, 0)
+static const u8 sChargingBeamDmaIdentifier_6 = 6;
+
+const u16 sParticleChargingBeamBeginOam_Frame10[OAM_DATA_SIZE(1)] = {
+    1,
+    OAM_ENTRY(-8, -8, OAM_DIMS_16x16, OAM_NO_FLIP, 0x90, 2, 0)
+};
+
+static const u8 sChargingBeamDmaIdentifier_7 = 7;
+
+const u16 sParticleChargingBeamBeginOam_Frame16[OAM_DATA_SIZE(4)] = {
+    4,
+    OAM_ENTRY(-12, -12, OAM_DIMS_16x16, OAM_NO_FLIP, 0x90, 2, 0),
+    OAM_ENTRY(4, -12, OAM_DIMS_8x16, OAM_X_FLIP, 0x90, 2, 0),
+    OAM_ENTRY(-12, 4, OAM_DIMS_16x8, OAM_Y_FLIP, 0x90, 2, 0),
+    OAM_ENTRY(4, 4, OAM_DIMS_8x8, OAM_XY_FLIP, 0x90, 2, 0)
+};
+
+static const u8 sChargingBeamDmaIdentifier_8 = 8;
+
+const u16 sParticleChargingBeamChargedOam_Frame1[OAM_DATA_SIZE(4)] = {
+    4,
+    OAM_ENTRY(-12, -12, OAM_DIMS_16x16, OAM_NO_FLIP, 0x90, 2, 0),
+    OAM_ENTRY(4, -12, OAM_DIMS_8x16, OAM_X_FLIP, 0x90, 2, 0),
+    OAM_ENTRY(-12, 4, OAM_DIMS_16x8, OAM_Y_FLIP, 0x90, 2, 0),
+    OAM_ENTRY(4, 4, OAM_DIMS_8x8, OAM_XY_FLIP, 0x90, 2, 0)
 };
 
 const struct FrameData sParticleShootingBeamHorizontalOam[5] = {
@@ -3247,6 +3299,14 @@ const struct FrameData sSpriteDebrisOam_Unused[7] = {
         .timer = CONVERT_SECONDS(1.f / 30)
     },
     [6] = FRAME_DATA_TERMINATOR
+};
+
+const u8 sChargingBeamGfx[0x400] = {
+    #include "data_new/charging_beam.gfx.inc"
+};
+
+const u8 sBeamHitGfx[0x200] = {
+    #include "data_new/beam_hit.gfx.inc"
 };
 
 // 33bd34
