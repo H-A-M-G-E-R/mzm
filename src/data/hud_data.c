@@ -7,7 +7,7 @@ const u16 sCommonSpritesPal[96] = {
     #include "extracted/data/hud/common.pal.inc"
 };
 const u32 sCommonSpritesGfx[3584] = {
-    #include "extracted/data/hud/common.gfx.inc"
+    #include "data_new/common_sprites.gfx.inc"
 };
 
 const u8 sMissileDigitsGfx[2304] = {

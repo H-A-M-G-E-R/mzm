@@ -4,83 +4,83 @@
 #include "types.h"
 #include "oam.h"
 
-extern const u16 sParticleShootingBeamHorizontalOam_Frame0[4];
+extern const u16 sParticleShootingBeamHorizontalOam_Frame0[OAM_DATA_SIZE(1)];
 
-extern const u16 sParticleShootingBeamHorizontalOam_Frame1[10];
+extern const u16 sParticleShootingBeamHorizontalOam_Frame1[OAM_DATA_SIZE(3)];
 
-extern const u16 sParticleShootingBeamHorizontalOam_Frame2[4];
+extern const u16 sParticleShootingBeamHorizontalOam_Frame2[OAM_DATA_SIZE(1)];
 
-extern const u16 sParticleShootingBeamHorizontalOam_Frame3[7];
+extern const u16 sParticleShootingBeamHorizontalOam_Frame3[OAM_DATA_SIZE(2)];
 
-extern const u16 sParticleShootingBeamDiagonallyUpOam_Frame0[4];
+extern const u16 sParticleShootingBeamDiagonallyUpOam_Frame0[OAM_DATA_SIZE(1)];
 
-extern const u16 sParticleShootingBeamDiagonallyUpOam_Frame1[10];
+extern const u16 sParticleShootingBeamDiagonallyUpOam_Frame1[OAM_DATA_SIZE(3)];
 
-extern const u16 sParticleShootingBeamDiagonallyUpOam_Frame2[4];
+extern const u16 sParticleShootingBeamDiagonallyUpOam_Frame2[OAM_DATA_SIZE(1)];
 
-extern const u16 sParticleShootingBeamDiagonallyUpOam_Frame3[7];
+extern const u16 sParticleShootingBeamDiagonallyUpOam_Frame3[OAM_DATA_SIZE(2)];
 
-extern const u16 sParticleShootingBeamDiagonallyDownOam_Frame0[4];
+extern const u16 sParticleShootingBeamDiagonallyDownOam_Frame0[OAM_DATA_SIZE(1)];
 
-extern const u16 sParticleShootingBeamDiagonallyDownOam_Frame1[10];
+extern const u16 sParticleShootingBeamDiagonallyDownOam_Frame1[OAM_DATA_SIZE(3)];
 
-extern const u16 sParticleShootingBeamDiagonallyDownOam_Frame2[4];
+extern const u16 sParticleShootingBeamDiagonallyDownOam_Frame2[OAM_DATA_SIZE(1)];
 
-extern const u16 sParticleShootingBeamDiagonallyDownOam_Frame3[7];
+extern const u16 sParticleShootingBeamDiagonallyDownOam_Frame3[OAM_DATA_SIZE(2)];
 
-extern const u16 sParticleShootingBeamUpOam_Frame0[4];
+extern const u16 sParticleShootingBeamUpOam_Frame0[OAM_DATA_SIZE(1)];
 
-extern const u16 sParticleShootingBeamUpOam_Frame1[10];
+extern const u16 sParticleShootingBeamUpOam_Frame1[OAM_DATA_SIZE(3)];
 
-extern const u16 sParticleShootingBeamUpOam_Frame2[4];
+extern const u16 sParticleShootingBeamUpOam_Frame2[OAM_DATA_SIZE(1)];
 
-extern const u16 sParticleShootingBeamUpOam_Frame3[7];
+extern const u16 sParticleShootingBeamUpOam_Frame3[OAM_DATA_SIZE(2)];
 
-extern const u16 sParticleShootingBeamDownOam_Frame0[4];
+extern const u16 sParticleShootingBeamDownOam_Frame0[OAM_DATA_SIZE(1)];
 
-extern const u16 sParticleShootingBeamDownOam_Frame1[10];
+extern const u16 sParticleShootingBeamDownOam_Frame1[OAM_DATA_SIZE(3)];
 
-extern const u16 sParticleShootingBeamDownOam_Frame2[4];
+extern const u16 sParticleShootingBeamDownOam_Frame2[OAM_DATA_SIZE(1)];
 
-extern const u16 sParticleShootingBeamDownOam_Frame3[7];
+extern const u16 sParticleShootingBeamDownOam_Frame3[OAM_DATA_SIZE(2)];
 
-extern const u16 sParticleBombOam_Frame0[13];
+extern const u16 sParticleBombOam_Frame0[OAM_DATA_SIZE(4)];
 
-extern const u16 sParticleBombOam_Frame1[13];
+extern const u16 sParticleBombOam_Frame1[OAM_DATA_SIZE(4)];
 
-extern const u16 sParticleBombOam_Frame2[13];
+extern const u16 sParticleBombOam_Frame2[OAM_DATA_SIZE(4)];
 
-extern const u16 sParticleBombOam_Frame3[13];
+extern const u16 sParticleBombOam_Frame3[OAM_DATA_SIZE(4)];
 
-extern const u16 sParticleBombOam_Frame4[13];
+extern const u16 sParticleBombOam_Frame4[OAM_DATA_SIZE(4)];
 
-extern const u16 sParticleBombOam_Frame5[13];
+extern const u16 sParticleBombOam_Frame5[OAM_DATA_SIZE(4)];
 
-extern const u16 sParticleBeamTrailingOam_Frame0[4];
+extern const u16 sParticleBeamTrailingOam_Frame0[OAM_DATA_SIZE(1)];
 
-extern const u16 sParticleBeamTrailingOam_Frame1[4];
+extern const u16 sParticleBeamTrailingOam_Frame1[OAM_DATA_SIZE(1)];
 
-extern const u16 sParticleBeamTrailingOam_Frame2[4];
+extern const u16 sParticleBeamTrailingOam_Frame2[OAM_DATA_SIZE(1)];
 
-extern const u16 sParticleBeamTrailingOam_Frame3[4];
+extern const u16 sParticleBeamTrailingOam_Frame3[OAM_DATA_SIZE(1)];
 
-extern const u16 sParticleBeamTrailingOam_Frame4[4];
+extern const u16 sParticleBeamTrailingOam_Frame4[OAM_DATA_SIZE(1)];
 
-extern const u16 sParticleChargingBeamBeginOam_Frame0[4];
+extern const u16 sParticleChargingBeamBeginOam_Frame0[OAM_DATA_SIZE(1)];
 
-extern const u16 sParticleChargingBeamBeginOam_Frame1[4];
+extern const u16 sParticleChargingBeamBeginOam_Frame1[OAM_DATA_SIZE(1)];
 
-extern const u16 sParticleChargingBeamBeginOam_Frame2[4];
+extern const u16 sParticleChargingBeamBeginOam_Frame2[OAM_DATA_SIZE(1)];
 
-extern const u16 sParticleChargingBeamBeginOam_Frame3[4];
+extern const u16 sParticleChargingBeamBeginOam_Frame3[OAM_DATA_SIZE(1)];
 
-extern const u16 sParticleChargingBeamBeginOam_Frame6[4];
+extern const u16 sParticleChargingBeamBeginOam_Frame6[OAM_DATA_SIZE(1)];
 
-extern const u16 sParticleChargingBeamBeginOam_Frame10[4];
+extern const u16 sParticleChargingBeamBeginOam_Frame10[OAM_DATA_SIZE(1)];
 
-extern const u16 sParticleChargingBeamBeginOam_Frame16[13];
+extern const u16 sParticleChargingBeamBeginOam_Frame16[OAM_DATA_SIZE(4)];
 
-extern const u16 sParticleChargingBeamChargedOam_Frame1[13];
+extern const u16 sParticleChargingBeamChargedOam_Frame1[OAM_DATA_SIZE(4)];
 
 extern const struct FrameData sParticleShootingBeamHorizontalOam[5];
 
@@ -100,379 +100,379 @@ extern const struct FrameData sParticleChargingBeamBeginOam[23];
 
 extern const struct FrameData sParticleChargingBeamChargedOam[3];
 
-extern const u16 sParticleHittingSomethingWithNormalBeamOam_Frame0[4];
+extern const u16 sParticleHittingSomethingWithNormalBeamOam_Frame0[OAM_DATA_SIZE(1)];
 
-extern const u16 sParticleHittingSomethingWithNormalBeamOam_Frame1[4];
+extern const u16 sParticleHittingSomethingWithNormalBeamOam_Frame1[OAM_DATA_SIZE(1)];
 
-extern const u16 sParticleHittingSomethingWithNormalBeamOam_Frame2[4];
+extern const u16 sParticleHittingSomethingWithNormalBeamOam_Frame2[OAM_DATA_SIZE(1)];
 
-extern const u16 sParticleHittingSomethingWithNormalBeamOam_Frame3[4];
+extern const u16 sParticleHittingSomethingWithNormalBeamOam_Frame3[OAM_DATA_SIZE(1)];
 
-extern const u16 sParticleHittingSomethingWithLongBeamOam_Frame2[7];
+extern const u16 sParticleHittingSomethingWithLongBeamOam_Frame2[OAM_DATA_SIZE(2)];
 
-extern const u16 sParticleHittingSomethingWithLongBeamOam_Frame3[7];
+extern const u16 sParticleHittingSomethingWithLongBeamOam_Frame3[OAM_DATA_SIZE(2)];
 
-extern const u16 sParticleHittingSomethingWithIceBeamOam_Frame3[7];
+extern const u16 sParticleHittingSomethingWithIceBeamOam_Frame3[OAM_DATA_SIZE(2)];
 
-extern const u16 sParticleHittingSomethingWithIceBeamOam_Frame4[13];
+extern const u16 sParticleHittingSomethingWithIceBeamOam_Frame4[OAM_DATA_SIZE(4)];
 
-extern const u16 sParticleHittingSomethingWithWaveBeamOam_Frame4[13];
+extern const u16 sParticleHittingSomethingWithWaveBeamOam_Frame4[OAM_DATA_SIZE(4)];
 
-extern const u16 sParticleHittingSomethingWithWaveBeamOam_Frame5[13];
+extern const u16 sParticleHittingSomethingWithWaveBeamOam_Frame5[OAM_DATA_SIZE(4)];
 
-extern const u16 sParticleHittingSomethingWithPlasmaBeamOam_Frame5[13];
+extern const u16 sParticleHittingSomethingWithPlasmaBeamOam_Frame5[OAM_DATA_SIZE(4)];
 
-extern const u16 sParticleHittingSomethingInvincible_Frame0[4];
+extern const u16 sParticleHittingSomethingInvincible_Frame0[OAM_DATA_SIZE(1)];
 
-extern const u16 sParticleHittingSomethingInvincible_Frame1[4];
+extern const u16 sParticleHittingSomethingInvincible_Frame1[OAM_DATA_SIZE(1)];
 
-extern const u16 sParticleHittingSomethingInvincible_Frame2[4];
+extern const u16 sParticleHittingSomethingInvincible_Frame2[OAM_DATA_SIZE(1)];
 
-extern const u16 sParticleHittingSomethingInvincible_Frame3[4];
+extern const u16 sParticleHittingSomethingInvincible_Frame3[OAM_DATA_SIZE(1)];
 
-extern const u16 sParticleHittingSomethingInvincible_Frame4[4];
+extern const u16 sParticleHittingSomethingInvincible_Frame4[OAM_DATA_SIZE(1)];
 
-extern const u16 sParticleHittingSomethingWithMissileOam_Frame0[7];
+extern const u16 sParticleHittingSomethingWithMissileOam_Frame0[OAM_DATA_SIZE(4)];
 
-extern const u16 sParticleHittingSomethingWithMissileOam_Frame1[4];
+extern const u16 sParticleHittingSomethingWithMissileOam_Frame1[OAM_DATA_SIZE(4)];
 
-extern const u16 sParticleHittingSomethingWithMissileOam_Frame2[13];
+extern const u16 sParticleHittingSomethingWithMissileOam_Frame2[OAM_DATA_SIZE(4)];
 
-extern const u16 sParticleHittingSomethingWithMissileOam_Frame3[13];
+extern const u16 sParticleHittingSomethingWithMissileOam_Frame3[OAM_DATA_SIZE(4)];
 
-extern const u16 sParticleHittingSomethingWithMissileOam_Frame4[13];
+extern const u16 sParticleHittingSomethingWithMissileOam_Frame4[OAM_DATA_SIZE(4)];
 
-extern const u16 sParticleHittingSomethingWithMissileOam_Frame5[13];
+extern const u16 sParticleHittingSomethingWithMissileOam_Frame5[OAM_DATA_SIZE(4)];
 
-extern const u16 sParticleHittingSomethingWithMissileOam_Frame6[13];
+extern const u16 sParticleHittingSomethingWithMissileOam_Frame6[OAM_DATA_SIZE(4)];
 
-extern const u16 sParticleHittingSomethingWithSuperMissileOam_Frame4[19];
+extern const u16 sParticleHittingSomethingWithSuperMissileOam_Frame4[OAM_DATA_SIZE(8)];
 
-extern const u16 sParticleHittingSomethingWithSuperMissileOam_Frame5[13];
+extern const u16 sParticleHittingSomethingWithSuperMissileOam_Frame5[OAM_DATA_SIZE(4)];
 
-extern const u16 sParticleHittingSomethingWithSuperMissileOam_Frame6[13];
+extern const u16 sParticleHittingSomethingWithSuperMissileOam_Frame6[OAM_DATA_SIZE(4)];
 
-extern const u16 sParticleSpriteExplosionHugeOam_Frame0[13];
+extern const u16 sParticleSpriteExplosionHugeOam_Frame0[OAM_DATA_SIZE(4)];
 
-extern const u16 sParticleSpriteExplosionHugeOam_Frame1[13];
+extern const u16 sParticleSpriteExplosionHugeOam_Frame1[OAM_DATA_SIZE(4)];
 
-extern const u16 sParticleSpriteExplosionHugeOam_Frame2[13];
+extern const u16 sParticleSpriteExplosionHugeOam_Frame2[OAM_DATA_SIZE(4)];
 
-extern const u16 sParticleSpriteExplosionHugeOam_Frame4[13];
+extern const u16 sParticleSpriteExplosionHugeOam_Frame4[OAM_DATA_SIZE(4)];
 
-extern const u16 sParticleSpriteExplosionHugeOam_Frame5[13];
+extern const u16 sParticleSpriteExplosionHugeOam_Frame5[OAM_DATA_SIZE(4)];
 
-extern const u16 sParticleSpriteExplosionHugeOam_Frame6[22];
+extern const u16 sParticleSpriteExplosionHugeOam_Frame6[OAM_DATA_SIZE(7)];
 
-extern const u16 sParticleSpriteExplosionHugeOam_Frame7[22];
+extern const u16 sParticleSpriteExplosionHugeOam_Frame7[OAM_DATA_SIZE(7)];
 
-extern const u16 sParticleSpriteExplosionHugeOam_Frame8[22];
+extern const u16 sParticleSpriteExplosionHugeOam_Frame8[OAM_DATA_SIZE(7)];
 
-extern const u16 sParticleSpriteExplosionHugeOam_Frame9[13];
+extern const u16 sParticleSpriteExplosionHugeOam_Frame9[OAM_DATA_SIZE(4)];
 
-extern const u16 sParticleSpriteExplosionHugeOam_Frame10[13];
+extern const u16 sParticleSpriteExplosionHugeOam_Frame10[OAM_DATA_SIZE(4)];
 
-extern const u16 sParticleSpriteExplosionHugeOam_Frame11[10];
+extern const u16 sParticleSpriteExplosionHugeOam_Frame11[OAM_DATA_SIZE(3)];
 
-extern const u16 sParticleSpriteExplosionHugeOam_Frame12[4];
+extern const u16 sParticleSpriteExplosionHugeOam_Frame12[OAM_DATA_SIZE(1)];
 
-extern const u16 sParticleSmallDustOam_Frame0[4];
+extern const u16 sParticleSmallDustOam_Frame0[OAM_DATA_SIZE(1)];
 
-extern const u16 sParticleSmallDustOam_Frame1[4];
+extern const u16 sParticleSmallDustOam_Frame1[OAM_DATA_SIZE(1)];
 
-extern const u16 sParticleSmallDustOam_Frame2[4];
+extern const u16 sParticleSmallDustOam_Frame2[OAM_DATA_SIZE(1)];
 
-extern const u16 sParticleSmallDustOam_Frame3[4];
+extern const u16 sParticleSmallDustOam_Frame3[OAM_DATA_SIZE(1)];
 
-extern const u16 sParticleSmallDustOam_Frame4[4];
+extern const u16 sParticleSmallDustOam_Frame4[OAM_DATA_SIZE(1)];
 
-extern const u16 sParticleSmallDustOam_Frame5[4];
+extern const u16 sParticleSmallDustOam_Frame5[OAM_DATA_SIZE(1)];
 
-extern const u16 sParticleMediumDustOam_Frame0[7];
+extern const u16 sParticleMediumDustOam_Frame0[OAM_DATA_SIZE(2)];
 
-extern const u16 sParticleMediumDustOam_Frame1[7];
+extern const u16 sParticleMediumDustOam_Frame1[OAM_DATA_SIZE(2)];
 
-extern const u16 sParticleMediumDustOam_Frame2[10];
+extern const u16 sParticleMediumDustOam_Frame2[OAM_DATA_SIZE(3)];
 
-extern const u16 sParticleMediumDustOam_Frame3[10];
+extern const u16 sParticleMediumDustOam_Frame3[OAM_DATA_SIZE(3)];
 
-extern const u16 sParticleMediumDustOam_Frame4[10];
+extern const u16 sParticleMediumDustOam_Frame4[OAM_DATA_SIZE(3)];
 
-extern const u16 sParticleMediumDustOam_Frame5[10];
+extern const u16 sParticleMediumDustOam_Frame5[OAM_DATA_SIZE(3)];
 
-extern const u16 sParticleMediumDustOam_Frame6[10];
+extern const u16 sParticleMediumDustOam_Frame6[OAM_DATA_SIZE(3)];
 
-extern const u16 sParticleMediumDustOam_Frame7[7];
+extern const u16 sParticleMediumDustOam_Frame7[OAM_DATA_SIZE(2)];
 
-extern const u16 sParticleMediumDustOam_Frame8[4];
+extern const u16 sParticleMediumDustOam_Frame8[OAM_DATA_SIZE(1)];
 
-extern const u16 sParticleTwoMediumDustOam_Frame0[7];
+extern const u16 sParticleTwoMediumDustOam_Frame0[OAM_DATA_SIZE(2)];
 
-extern const u16 sParticleTwoMediumDustOam_Frame1[10];
+extern const u16 sParticleTwoMediumDustOam_Frame1[OAM_DATA_SIZE(3)];
 
-extern const u16 sParticleTwoMediumDustOam_Frame2[10];
+extern const u16 sParticleTwoMediumDustOam_Frame2[OAM_DATA_SIZE(3)];
 
-extern const u16 sParticleTwoMediumDustOam_Frame3[10];
+extern const u16 sParticleTwoMediumDustOam_Frame3[OAM_DATA_SIZE(3)];
 
-extern const u16 sParticleTwoMediumDustOam_Frame4[13];
+extern const u16 sParticleTwoMediumDustOam_Frame4[OAM_DATA_SIZE(4)];
 
-extern const u16 sParticleTwoMediumDustOam_Frame5[13];
+extern const u16 sParticleTwoMediumDustOam_Frame5[OAM_DATA_SIZE(4)];
 
-extern const u16 sParticleTwoMediumDustOam_Frame6[10];
+extern const u16 sParticleTwoMediumDustOam_Frame6[OAM_DATA_SIZE(3)];
 
-extern const u16 sParticleTwoMediumDustOam_Frame7[7];
+extern const u16 sParticleTwoMediumDustOam_Frame7[OAM_DATA_SIZE(2)];
 
-extern const u16 sParticleTwoMediumDustOam_Frame8[7];
+extern const u16 sParticleTwoMediumDustOam_Frame8[OAM_DATA_SIZE(2)];
 
-extern const u16 sParticleTwoMediumDustOam_Frame9[4];
+extern const u16 sParticleTwoMediumDustOam_Frame9[OAM_DATA_SIZE(1)];
 
-extern const u16 sParticleSpriteExplosionSmallOam_Frame0[4];
+extern const u16 sParticleSpriteExplosionSmallOam_Frame0[OAM_DATA_SIZE(1)];
 
-extern const u16 sParticleSpriteExplosionSmallOam_Frame1[4];
+extern const u16 sParticleSpriteExplosionSmallOam_Frame1[OAM_DATA_SIZE(1)];
 
-extern const u16 sParticleSpriteExplosionSmallOam_Frame2[4];
+extern const u16 sParticleSpriteExplosionSmallOam_Frame2[OAM_DATA_SIZE(1)];
 
-extern const u16 sParticleSpriteExplosionSmallOam_Frame3[4];
+extern const u16 sParticleSpriteExplosionSmallOam_Frame3[OAM_DATA_SIZE(1)];
 
-extern const u16 sParticleSpriteExplosionSmallOam_Frame4[4];
+extern const u16 sParticleSpriteExplosionSmallOam_Frame4[OAM_DATA_SIZE(1)];
 
-extern const u16 sParticleSpriteExplosionSmallOam_Frame5[7];
+extern const u16 sParticleSpriteExplosionSmallOam_Frame5[OAM_DATA_SIZE(2)];
 
-extern const u16 sParticleSpriteExplosionSmallOam_Frame6[7];
+extern const u16 sParticleSpriteExplosionSmallOam_Frame6[OAM_DATA_SIZE(2)];
 
-extern const u16 sParticleSpriteExplosionSmallOam_Frame7[7];
+extern const u16 sParticleSpriteExplosionSmallOam_Frame7[OAM_DATA_SIZE(2)];
 
-extern const u16 sParticleSpriteExplosionSmallOam_Frame8[7];
+extern const u16 sParticleSpriteExplosionSmallOam_Frame8[OAM_DATA_SIZE(2)];
 
-extern const u16 sParticleSpriteExplosionSmallOam_Frame9[7];
+extern const u16 sParticleSpriteExplosionSmallOam_Frame9[OAM_DATA_SIZE(2)];
 
-extern const u16 sParticleSpriteExplosionSmallOam_Frame10[4];
+extern const u16 sParticleSpriteExplosionSmallOam_Frame10[OAM_DATA_SIZE(1)];
 
-extern const u16 sParticleSpriteExplosionMediumOam_Frame3[7];
+extern const u16 sParticleSpriteExplosionMediumOam_Frame3[OAM_DATA_SIZE(2)];
 
-extern const u16 sParticleSpriteExplosionMediumOam_Frame4[7];
+extern const u16 sParticleSpriteExplosionMediumOam_Frame4[OAM_DATA_SIZE(2)];
 
-extern const u16 sParticleSpriteExplosionMediumOam_Frame5[10];
+extern const u16 sParticleSpriteExplosionMediumOam_Frame5[OAM_DATA_SIZE(3)];
 
-extern const u16 sParticleSpriteExplosionMediumOam_Frame6[13];
+extern const u16 sParticleSpriteExplosionMediumOam_Frame6[OAM_DATA_SIZE(4)];
 
-extern const u16 sParticleSpriteExplosionMediumOam_Frame7[13];
+extern const u16 sParticleSpriteExplosionMediumOam_Frame7[OAM_DATA_SIZE(4)];
 
-extern const u16 sParticleSpriteExplosionMediumOam_Frame8[16];
+extern const u16 sParticleSpriteExplosionMediumOam_Frame8[OAM_DATA_SIZE(5)];
 
-extern const u16 sParticleSpriteExplosionMediumOam_Frame9[16];
+extern const u16 sParticleSpriteExplosionMediumOam_Frame9[OAM_DATA_SIZE(5)];
 
-extern const u16 sParticleSpriteExplosionMediumOam_Frame10[13];
+extern const u16 sParticleSpriteExplosionMediumOam_Frame10[OAM_DATA_SIZE(4)];
 
-extern const u16 sParticleSpriteExplosionMediumOam_Frame11[13];
+extern const u16 sParticleSpriteExplosionMediumOam_Frame11[OAM_DATA_SIZE(4)];
 
-extern const u16 sParticleSpriteExplosionMediumOam_Frame12[13];
+extern const u16 sParticleSpriteExplosionMediumOam_Frame12[OAM_DATA_SIZE(4)];
 
-extern const u16 sParticleSpriteExplosionMediumOam_Frame13[10];
+extern const u16 sParticleSpriteExplosionMediumOam_Frame13[OAM_DATA_SIZE(3)];
 
-extern const u16 sParticleSpriteExplosionMediumOam_Frame14[7];
+extern const u16 sParticleSpriteExplosionMediumOam_Frame14[OAM_DATA_SIZE(2)];
 
-extern const u16 sParticleSpriteExplosionMediumOam_Frame15[7];
+extern const u16 sParticleSpriteExplosionMediumOam_Frame15[OAM_DATA_SIZE(2)];
 
-extern const u16 sParticleSpriteExplosionMediumOam_Frame16[4];
+extern const u16 sParticleSpriteExplosionMediumOam_Frame16[OAM_DATA_SIZE(1)];
 
-extern const u16 sParticleSpriteExplosionBigOam_Frame6[16];
+extern const u16 sParticleSpriteExplosionBigOam_Frame6[OAM_DATA_SIZE(5)];
 
-extern const u16 sParticleSpriteExplosionBigOam_Frame7[16];
+extern const u16 sParticleSpriteExplosionBigOam_Frame7[OAM_DATA_SIZE(5)];
 
-extern const u16 sParticleSpriteExplosionBigOam_Frame8[19];
+extern const u16 sParticleSpriteExplosionBigOam_Frame8[OAM_DATA_SIZE(6)];
 
-extern const u16 sParticleSpriteExplosionBigOam_Frame9[19];
+extern const u16 sParticleSpriteExplosionBigOam_Frame9[OAM_DATA_SIZE(6)];
 
-extern const u16 sParticleSpriteExplosionBigOam_Frame10[16];
+extern const u16 sParticleSpriteExplosionBigOam_Frame10[OAM_DATA_SIZE(5)];
 
-extern const u16 sParticleSpriteExplosionBigOam_Frame11[19];
+extern const u16 sParticleSpriteExplosionBigOam_Frame11[OAM_DATA_SIZE(6)];
 
-extern const u16 sParticleSpriteExplosionBigOam_Frame12[16];
+extern const u16 sParticleSpriteExplosionBigOam_Frame12[OAM_DATA_SIZE(5)];
 
-extern const u16 sParticleSpriteExplosionBigOam_Frame13[16];
+extern const u16 sParticleSpriteExplosionBigOam_Frame13[OAM_DATA_SIZE(5)];
 
-extern const u16 sParticleSpriteExplosionBigOam_Frame14[10];
+extern const u16 sParticleSpriteExplosionBigOam_Frame14[OAM_DATA_SIZE(3)];
 
-extern const u16 sParticleSpriteExplosionBigOam_Frame15[7];
+extern const u16 sParticleSpriteExplosionBigOam_Frame15[OAM_DATA_SIZE(2)];
 
-extern const u16 sParticleSpriteExplosionBigOam_Frame16[4];
+extern const u16 sParticleSpriteExplosionBigOam_Frame16[OAM_DATA_SIZE(1)];
 
-extern const u16 sParticleSpriteExplosionSingleThenBigOam_Frame3[28];
+extern const u16 sParticleSpriteExplosionSingleThenBigOam_Frame3[OAM_DATA_SIZE(9)];
 
-extern const u16 sParticleScrewAttackDestroyedOam_Frame0[4];
+extern const u16 sParticleScrewAttackDestroyedOam_Frame0[OAM_DATA_SIZE(1)];
 
-extern const u16 sParticleScrewAttackDestroyedOam_Frame1[25];
+extern const u16 sParticleScrewAttackDestroyedOam_Frame1[OAM_DATA_SIZE(8)];
 
-extern const u16 sParticleScrewAttackDestroyedOam_Frame2[37];
+extern const u16 sParticleScrewAttackDestroyedOam_Frame2[OAM_DATA_SIZE(12)];
 
-extern const u16 sParticleScrewAttackDestroyedOam_Frame3[49];
+extern const u16 sParticleScrewAttackDestroyedOam_Frame3[OAM_DATA_SIZE(16)];
 
-extern const u16 sParticleScrewAttackDestroyedOam_Frame4[49];
+extern const u16 sParticleScrewAttackDestroyedOam_Frame4[OAM_DATA_SIZE(16)];
 
-extern const u16 sParticleScrewAttackDestroyedOam_Frame5[28];
+extern const u16 sParticleScrewAttackDestroyedOam_Frame5[OAM_DATA_SIZE(9)];
 
-extern const u16 sParticleScrewAttackDestroyedOam_Frame6[16];
+extern const u16 sParticleScrewAttackDestroyedOam_Frame6[OAM_DATA_SIZE(5)];
 
-extern const u16 sParticleScrewAttackDestroyedOam_Frame7[22];
+extern const u16 sParticleScrewAttackDestroyedOam_Frame7[OAM_DATA_SIZE(7)];
 
-extern const u16 sParticleShinesparkDestroyedOam_Frame0[10];
+extern const u16 sParticleShinesparkDestroyedOam_Frame0[OAM_DATA_SIZE(3)];
 
-extern const u16 sParticleShinesparkDestroyedOam_Frame1[13];
+extern const u16 sParticleShinesparkDestroyedOam_Frame1[OAM_DATA_SIZE(4)];
 
-extern const u16 sParticleShinesparkDestroyedOam_Frame2[19];
+extern const u16 sParticleShinesparkDestroyedOam_Frame2[OAM_DATA_SIZE(6)];
 
-extern const u16 sParticleShinesparkDestroyedOam_Frame3[28];
+extern const u16 sParticleShinesparkDestroyedOam_Frame3[OAM_DATA_SIZE(9)];
 
-extern const u16 sParticleShinesparkDestroyedOam_Frame4[31];
+extern const u16 sParticleShinesparkDestroyedOam_Frame4[OAM_DATA_SIZE(10)];
 
-extern const u16 sParticleShinesparkDestroyedOam_Frame5[31];
+extern const u16 sParticleShinesparkDestroyedOam_Frame5[OAM_DATA_SIZE(10)];
 
-extern const u16 sParticleShinesparkDestroyedOam_Frame6[22];
+extern const u16 sParticleShinesparkDestroyedOam_Frame6[OAM_DATA_SIZE(7)];
 
-extern const u16 sParticleShinesparkDestroyedOam_Frame7[19];
+extern const u16 sParticleShinesparkDestroyedOam_Frame7[OAM_DATA_SIZE(6)];
 
-extern const u16 sParticleShinesparkDestroyedOam_Frame8[10];
+extern const u16 sParticleShinesparkDestroyedOam_Frame8[OAM_DATA_SIZE(3)];
 
-extern const u16 sParticleShinesparkDestroyedOam_Frame9[10];
+extern const u16 sParticleShinesparkDestroyedOam_Frame9[OAM_DATA_SIZE(3)];
 
-extern const u16 sParticlePseudoScrewDestroyedOam_Frame0[7];
+extern const u16 sParticlePseudoScrewDestroyedOam_Frame0[OAM_DATA_SIZE(2)];
 
-extern const u16 sParticlePseudoScrewDestroyedOam_Frame1[22];
+extern const u16 sParticlePseudoScrewDestroyedOam_Frame1[OAM_DATA_SIZE(7)];
 
-extern const u16 sParticlePseudoScrewDestroyedOam_Frame2[28];
+extern const u16 sParticlePseudoScrewDestroyedOam_Frame2[OAM_DATA_SIZE(9)];
 
-extern const u16 sParticlePseudoScrewDestroyedOam_Frame3[25];
+extern const u16 sParticlePseudoScrewDestroyedOam_Frame3[OAM_DATA_SIZE(8)];
 
-extern const u16 sParticlePseudoScrewDestroyedOam_Frame4[25];
+extern const u16 sParticlePseudoScrewDestroyedOam_Frame4[OAM_DATA_SIZE(8)];
 
-extern const u16 sParticlePseudoScrewDestroyedOam_Frame5[10];
+extern const u16 sParticlePseudoScrewDestroyedOam_Frame5[OAM_DATA_SIZE(3)];
 
-extern const u16 sParticlePseudoScrewDestroyedOam_Frame6[10];
+extern const u16 sParticlePseudoScrewDestroyedOam_Frame6[OAM_DATA_SIZE(3)];
 
-extern const u16 sParticlePseudoScrewDestroyedOam_Frame7[16];
+extern const u16 sParticlePseudoScrewDestroyedOam_Frame7[OAM_DATA_SIZE(5)];
 
-extern const u16 sParticleSpeedboosterDestroyedOam_Frame0[13];
+extern const u16 sParticleSpeedboosterDestroyedOam_Frame0[OAM_DATA_SIZE(4)];
 
-extern const u16 sParticleSpeedboosterDestroyedOam_Frame1[28];
+extern const u16 sParticleSpeedboosterDestroyedOam_Frame1[OAM_DATA_SIZE(9)];
 
-extern const u16 sParticleSpeedboosterDestroyedOam_Frame2[40];
+extern const u16 sParticleSpeedboosterDestroyedOam_Frame2[OAM_DATA_SIZE(13)];
 
-extern const u16 sParticleSpeedboosterDestroyedOam_Frame3[37];
+extern const u16 sParticleSpeedboosterDestroyedOam_Frame3[OAM_DATA_SIZE(12)];
 
-extern const u16 sParticleSpeedboosterDestroyedOam_Frame4[37];
+extern const u16 sParticleSpeedboosterDestroyedOam_Frame4[OAM_DATA_SIZE(12)];
 
-extern const u16 sParticleSpeedboosterDestroyedOam_Frame5[16];
+extern const u16 sParticleSpeedboosterDestroyedOam_Frame5[OAM_DATA_SIZE(5)];
 
-extern const u16 sParticleSpeedboosterDestroyedOam_Frame6[16];
+extern const u16 sParticleSpeedboosterDestroyedOam_Frame6[OAM_DATA_SIZE(5)];
 
-extern const u16 sParticleSpeedboosterDestroyedOam_Frame7[22];
+extern const u16 sParticleSpeedboosterDestroyedOam_Frame7[OAM_DATA_SIZE(7)];
 
-extern const u16 sParticleFreezingSpriteWithIceOam_Frame0[4];
+extern const u16 sParticleFreezingSpriteWithIceOam_Frame0[OAM_DATA_SIZE(1)];
 
-extern const u16 sParticleFreezingSpriteWithIceOam_Frame1[4];
+extern const u16 sParticleFreezingSpriteWithIceOam_Frame1[OAM_DATA_SIZE(1)];
 
-extern const u16 sParticleFreezingSpriteWithIceOam_Frame2[4];
+extern const u16 sParticleFreezingSpriteWithIceOam_Frame2[OAM_DATA_SIZE(1)];
 
-extern const u16 sParticleFreezingSpriteWithIceOam_Frame3[7];
+extern const u16 sParticleFreezingSpriteWithIceOam_Frame3[OAM_DATA_SIZE(2)];
 
-extern const u16 sParticleFreezingSpriteWithIceOam_Frame4[7];
+extern const u16 sParticleFreezingSpriteWithIceOam_Frame4[OAM_DATA_SIZE(2)];
 
-extern const u16 sParticleFreezingSpriteWithIceOam_Frame5[7];
+extern const u16 sParticleFreezingSpriteWithIceOam_Frame5[OAM_DATA_SIZE(2)];
 
-extern const u16 sParticleFreezingSpriteWithIceOam_Frame6[10];
+extern const u16 sParticleFreezingSpriteWithIceOam_Frame6[OAM_DATA_SIZE(3)];
 
-extern const u16 sParticleFreezingSpriteWithIceOam_Frame7[10];
+extern const u16 sParticleFreezingSpriteWithIceOam_Frame7[OAM_DATA_SIZE(3)];
 
-extern const u16 sParticleFreezingSpriteWithIceOam_Frame8[10];
+extern const u16 sParticleFreezingSpriteWithIceOam_Frame8[OAM_DATA_SIZE(3)];
 
-extern const u16 sParticleFreezingSpriteWithIceOam_Frame9[10];
+extern const u16 sParticleFreezingSpriteWithIceOam_Frame9[OAM_DATA_SIZE(3)];
 
-extern const u16 sParticleFreezingSpriteWithIceOam_Frame10[10];
+extern const u16 sParticleFreezingSpriteWithIceOam_Frame10[OAM_DATA_SIZE(3)];
 
-extern const u16 sParticleFreezingSpriteWithIceOam_Frame11[7];
+extern const u16 sParticleFreezingSpriteWithIceOam_Frame11[OAM_DATA_SIZE(2)];
 
-extern const u16 sParticleFreezingSpriteWithIceOam_Frame12[7];
+extern const u16 sParticleFreezingSpriteWithIceOam_Frame12[OAM_DATA_SIZE(2)];
 
-extern const u16 sParticleFreezingSpriteWithIceOam_Frame13[4];
+extern const u16 sParticleFreezingSpriteWithIceOam_Frame13[OAM_DATA_SIZE(1)];
 
-extern const u16 sParticleFreezingSpriteWithIceOam_Frame14[4];
+extern const u16 sParticleFreezingSpriteWithIceOam_Frame14[OAM_DATA_SIZE(1)];
 
-extern const u16 sParticleFreezingSpriteWithIceOam_Frame15[4];
+extern const u16 sParticleFreezingSpriteWithIceOam_Frame15[OAM_DATA_SIZE(1)];
 
-extern const u16 sParticleFreezingSpriteWithChargedIceBeamOam_Frame0[13];
+extern const u16 sParticleFreezingSpriteWithChargedIceBeamOam_Frame0[OAM_DATA_SIZE(4)];
 
-extern const u16 sParticleFreezingSpriteWithChargedIceBeamOam_Frame1[13];
+extern const u16 sParticleFreezingSpriteWithChargedIceBeamOam_Frame1[OAM_DATA_SIZE(4)];
 
-extern const u16 sParticleFreezingSpriteWithChargedIceBeamOam_Frame2[13];
+extern const u16 sParticleFreezingSpriteWithChargedIceBeamOam_Frame2[OAM_DATA_SIZE(4)];
 
-extern const u16 sParticleFreezingSpriteWithChargedIceBeamOam_Frame3[28];
+extern const u16 sParticleFreezingSpriteWithChargedIceBeamOam_Frame3[OAM_DATA_SIZE(9)];
 
-extern const u16 sParticleFreezingSpriteWithChargedIceBeamOam_Frame4[13];
+extern const u16 sParticleFreezingSpriteWithChargedIceBeamOam_Frame4[OAM_DATA_SIZE(4)];
 
-extern const u16 sParticleFreezingSpriteWithChargedIceBeamOam_Frame5[13];
+extern const u16 sParticleFreezingSpriteWithChargedIceBeamOam_Frame5[OAM_DATA_SIZE(4)];
 
-extern const u16 sParticleFreezingSpriteWithChargedIceBeamOam_Frame6[13];
+extern const u16 sParticleFreezingSpriteWithChargedIceBeamOam_Frame6[OAM_DATA_SIZE(4)];
 
-extern const u16 sParticleFreezingSpriteWithChargedIceBeamOam_Frame7[13];
+extern const u16 sParticleFreezingSpriteWithChargedIceBeamOam_Frame7[OAM_DATA_SIZE(4)];
 
-extern const u16 sParticleFreezingSpriteWithChargedIceBeamOam_Frame8[13];
+extern const u16 sParticleFreezingSpriteWithChargedIceBeamOam_Frame8[OAM_DATA_SIZE(4)];
 
-extern const u16 sParticleFreezingSpriteWithChargedIceBeamOam_Frame9[10];
+extern const u16 sParticleFreezingSpriteWithChargedIceBeamOam_Frame9[OAM_DATA_SIZE(3)];
 
-extern const u16 sParticleFreezingSpriteWithChargedIceBeamOam_Frame10[10];
+extern const u16 sParticleFreezingSpriteWithChargedIceBeamOam_Frame10[OAM_DATA_SIZE(3)];
 
-extern const u16 sParticleFreezingSpriteWithChargedIceBeamOam_Frame11[7];
+extern const u16 sParticleFreezingSpriteWithChargedIceBeamOam_Frame11[OAM_DATA_SIZE(2)];
 
-extern const u16 sParticleFreezingSpriteWithChargedIceBeamOam_Frame12[4];
+extern const u16 sParticleFreezingSpriteWithChargedIceBeamOam_Frame12[OAM_DATA_SIZE(1)];
 
-extern const u16 sParticleFreezingSpriteWithChargedIceBeamOam_Frame13[7];
+extern const u16 sParticleFreezingSpriteWithChargedIceBeamOam_Frame13[OAM_DATA_SIZE(2)];
 
-extern const u16 sParticleFreezingSpriteWithChargedIceBeamOam_Frame14[4];
+extern const u16 sParticleFreezingSpriteWithChargedIceBeamOam_Frame14[OAM_DATA_SIZE(1)];
 
-extern const u16 sParticleMainBossDeathOam_Frame2[19];
+extern const u16 sParticleMainBossDeathOam_Frame2[OAM_DATA_SIZE(8)];
 
-extern const u16 sParticleMainBossDeathOam_Frame3[16];
+extern const u16 sParticleMainBossDeathOam_Frame3[OAM_DATA_SIZE(8)];
 
-extern const u16 sParticleMainBossDeathOam_Frame4[31];
+extern const u16 sParticleMainBossDeathOam_Frame4[OAM_DATA_SIZE(12)];
 
-extern const u16 sParticleMainBossDeathOam_Frame5[49];
+extern const u16 sParticleMainBossDeathOam_Frame5[OAM_DATA_SIZE(21)];
 
-extern const u16 sParticleMainBossDeathOam_Frame6[52];
+extern const u16 sParticleMainBossDeathOam_Frame6[OAM_DATA_SIZE(22)];
 
-extern const u16 sParticleMainBossDeathOam_Frame7[55];
+extern const u16 sParticleMainBossDeathOam_Frame7[OAM_DATA_SIZE(18)];
 
-extern const u16 sParticleMainBossDeathOam_Frame8[64];
+extern const u16 sParticleMainBossDeathOam_Frame8[OAM_DATA_SIZE(21)];
 
-extern const u16 sParticleMainBossDeathOam_Frame9[61];
+extern const u16 sParticleMainBossDeathOam_Frame9[OAM_DATA_SIZE(20)];
 
-extern const u16 sParticleMainBossDeathOam_Frame10[58];
+extern const u16 sParticleMainBossDeathOam_Frame10[OAM_DATA_SIZE(19)];
 
-extern const u16 sParticleMainBossDeathOam_Frame11[55];
+extern const u16 sParticleMainBossDeathOam_Frame11[OAM_DATA_SIZE(18)];
 
-extern const u16 sParticleMainBossDeathOam_Frame12[37];
+extern const u16 sParticleMainBossDeathOam_Frame12[OAM_DATA_SIZE(12)];
 
-extern const u16 sParticleMainBossDeathOam_Frame13[37];
+extern const u16 sParticleMainBossDeathOam_Frame13[OAM_DATA_SIZE(12)];
 
-extern const u16 sParticleMainBossDeathOam_Frame14[31];
+extern const u16 sParticleMainBossDeathOam_Frame14[OAM_DATA_SIZE(10)];
 
-extern const u16 sParticleMainBossDeathOam_Frame15[19];
+extern const u16 sParticleMainBossDeathOam_Frame15[OAM_DATA_SIZE(6)];
 
-extern const u16 sParticleMainBossDeathOam_Frame16[10];
+extern const u16 sParticleMainBossDeathOam_Frame16[OAM_DATA_SIZE(3)];
 
-extern const u16 sSpriteDebrisOam_Frame0[4];
+extern const u16 sSpriteDebrisOam_Frame0[OAM_DATA_SIZE(1)];
 
-extern const u16 sSpriteDebrisOam_Frame1[4];
+extern const u16 sSpriteDebrisOam_Frame1[OAM_DATA_SIZE(1)];
 
-extern const u16 sSpriteDebrisOam_Frame2[4];
+extern const u16 sSpriteDebrisOam_Frame2[OAM_DATA_SIZE(1)];
 
-extern const u16 sSpriteDebrisOam_Frame3[4];
+extern const u16 sSpriteDebrisOam_Frame3[OAM_DATA_SIZE(1)];
 
-extern const u16 sParticleHittingSomethingWithPlasmaBeamOam_Frame6[13];
+extern const u16 sParticleHittingSomethingWithPlasmaBeamOam_Frame6[OAM_DATA_SIZE(4)];
 
-extern const u16 sSpriteDebrisOam_Unused_Frame4[25];
+extern const u16 sSpriteDebrisOam_Unused_Frame4[OAM_DATA_SIZE(8)];
 
-extern const u16 sSpriteDebrisOam_Unused_Frame5[25];
+extern const u16 sSpriteDebrisOam_Unused_Frame5[OAM_DATA_SIZE(8)];
 
 extern const struct FrameData sParticleHittingSomethingWithNormalBeamOam[5];
 

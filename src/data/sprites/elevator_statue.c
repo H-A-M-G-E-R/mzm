@@ -976,7 +976,7 @@ static const u16 sElevatorStatueDebrisOam_Dust_Frame18[OAM_DATA_SIZE(4)] = {
 
 static const u16 sElevatorStatueDebrisOam_Dust_Frame1[OAM_DATA_SIZE(1)] = {
     1,
-    OAM_ENTRY(-4, -4, OAM_DIMS_8x8, OAM_NO_FLIP, 0x140, 4, 0)
+    OAM_ENTRY(-4, -4, OAM_DIMS_8x8, OAM_NO_FLIP, 0x193, 4, 0) // blank tile
 };
 
 const struct FrameData sKraidElevatorStatueOam_Idle[2] = {
