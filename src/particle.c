@@ -354,7 +354,7 @@ void ParticleSet(u16 yPosition, u16 xPosition, ParticleEffectId effect)
     pParticle->xPosition = xPosition;
 
     pParticle->currentAnimationFrame = 0;
-    pParticle->animationDurationCounter = UCHAR_MAX;
+    pParticle->animationDurationCounter = 0;
 
     pParticle->effect = effect;
     pParticle->stage = 0;
@@ -375,9 +375,9 @@ boolu8 ParticleUpdateAnimation(struct ParticleEffect* pParticle, const struct Fr
     ended = FALSE;
     APPLY_DELTA_TIME_INC(pParticle->animationDurationCounter);
 
-    if (pOam[pParticle->currentAnimationFrame].timer <= pParticle->animationDurationCounter)
+    if (pOam[pParticle->currentAnimationFrame].timer < pParticle->animationDurationCounter)
     {
-        pParticle->animationDurationCounter = 0;
+        pParticle->animationDurationCounter = 1;
         pParticle->currentAnimationFrame++;
 
         if (pOam[pParticle->currentAnimationFrame].timer == 0)
