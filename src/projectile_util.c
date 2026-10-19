@@ -3,6 +3,7 @@
 #include "projectile.h"
 #include "clipdata.h"
 
+#include "data/particle_data.h"
 #include "data/projectile_data.h"
 #include "data/sprite_data.h"
 
@@ -758,6 +759,9 @@ void ProjectileLoadGraphics(void)
 
         HudDrawSuitless();
         palOffset = 5 * PAL_ROW;
+
+        DMA3_COPY_16(sBeamHitGfx + 0 * 0x20, VRAM_OBJ + 0x92 * 0x20, 0x20);
+        DMA3_COPY_16(sBeamHitGfx + 2 * 0x20, VRAM_OBJ + 0xB2 * 0x20, 0x20);
     }
     else
     {
@@ -773,6 +777,9 @@ void ProjectileLoadGraphics(void)
                 palOffset = 2 * PAL_ROW;
             else
                 palOffset = 4 * PAL_ROW;
+
+            DMA3_COPY_16(sBeamHitGfx + 12 * 0x20, VRAM_OBJ + 0x92 * 0x20, 0x20);
+            DMA3_COPY_16(sBeamHitGfx + 14 * 0x20, VRAM_OBJ + 0xB2 * 0x20, 0x20);
         }
         else if (bba & BBF_WAVE_BEAM)
         {
@@ -785,6 +792,9 @@ void ProjectileLoadGraphics(void)
                 palOffset = 2 * PAL_ROW;
             else
                 palOffset = 3 * PAL_ROW;
+
+            DMA3_COPY_16(sBeamHitGfx + 8 * 0x20, VRAM_OBJ + 0x92 * 0x20, 0x20);
+            DMA3_COPY_16(sBeamHitGfx + 10 * 0x20, VRAM_OBJ + 0xB2 * 0x20, 0x20);
         }
         else if (bba & BBF_ICE_BEAM)
         {
@@ -794,6 +804,9 @@ void ProjectileLoadGraphics(void)
             DMA3_COPY_16(sIceBeamGfx_Charged_Bottom, VRAM_BASE + 0x11C00, sizeof(sIceBeamGfx_Charged_Bottom) / 2);
 
             palOffset = 2 * PAL_ROW;
+
+            DMA3_COPY_16(sBeamHitGfx + 4 * 0x20, VRAM_OBJ + 0x92 * 0x20, 0x20);
+            DMA3_COPY_16(sBeamHitGfx + 6 * 0x20, VRAM_OBJ + 0xB2 * 0x20, 0x20);
         }
         else if (bba & BBF_LONG_BEAM)
         {
@@ -803,6 +816,9 @@ void ProjectileLoadGraphics(void)
             DMA3_COPY_16(sLongBeamGfx_Charged_Bottom, VRAM_BASE + 0x11C00, sizeof(sLongBeamGfx_Charged_Bottom) / 2);
 
             palOffset = 1 * PAL_ROW;
+
+            DMA3_COPY_16(sBeamHitGfx + 0 * 0x20, VRAM_OBJ + 0x92 * 0x20, 0x20);
+            DMA3_COPY_16(sBeamHitGfx + 2 * 0x20, VRAM_OBJ + 0xB2 * 0x20, 0x20);
         }
         else
         {
@@ -812,6 +828,9 @@ void ProjectileLoadGraphics(void)
             DMA3_COPY_16(sNormalBeamGfx_Charged_Bottom, VRAM_BASE + 0x11C00, sizeof(sNormalBeamGfx_Charged_Bottom) / 2);
 
             palOffset = 0 * PAL_ROW;
+
+            DMA3_COPY_16(sBeamHitGfx + 0 * 0x20, VRAM_OBJ + 0x92 * 0x20, 0x20);
+            DMA3_COPY_16(sBeamHitGfx + 2 * 0x20, VRAM_OBJ + 0xB2 * 0x20, 0x20);
         }
     }
     

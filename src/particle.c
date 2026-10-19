@@ -375,9 +375,9 @@ boolu8 ParticleUpdateAnimation(struct ParticleEffect* pParticle, const struct Fr
     ended = FALSE;
     APPLY_DELTA_TIME_INC(pParticle->animationDurationCounter);
 
-    if (pOam[pParticle->currentAnimationFrame].timer <= pParticle->animationDurationCounter)
+    if (pOam[pParticle->currentAnimationFrame].timer < pParticle->animationDurationCounter)
     {
-        pParticle->animationDurationCounter = 0;
+        pParticle->animationDurationCounter = 1;
         pParticle->currentAnimationFrame++;
 
         if (pOam[pParticle->currentAnimationFrame].timer == 0)
@@ -649,6 +649,9 @@ void ParticleShootingBeamLeft(struct ParticleEffect* pParticle)
         pParticle->stage++;
         pParticle->status |= PARTICLE_STATUS_LOW_BG_PRIORITY;
     }
+
+    if (pParticle->animationDurationCounter == 1)
+        gSamusPhysics.chargingBeamDma = *(gCurrentParticleEffectOamFramePointer - 1);
 }
 
 /**
@@ -671,6 +674,9 @@ void ParticleShootingBeamRight(struct ParticleEffect* pParticle)
         pParticle->stage++;
         pParticle->status |= PARTICLE_STATUS_X_FLIP | PARTICLE_STATUS_LOW_BG_PRIORITY;
     }
+
+    if (pParticle->animationDurationCounter == 1)
+        gSamusPhysics.chargingBeamDma = *(gCurrentParticleEffectOamFramePointer - 1);
 }
 
 /**
@@ -693,6 +699,9 @@ void ParticleShootingBeamDiagUpLeft(struct ParticleEffect* pParticle)
         pParticle->stage++;
         pParticle->status |= PARTICLE_STATUS_LOW_BG_PRIORITY;
     }
+
+    if (pParticle->animationDurationCounter == 1)
+        gSamusPhysics.chargingBeamDma = *(gCurrentParticleEffectOamFramePointer - 1);
 }
 
 /**
@@ -715,6 +724,9 @@ void ParticleShootingBeamDiagUpRight(struct ParticleEffect* pParticle)
         pParticle->stage++;
         pParticle->status |= PARTICLE_STATUS_X_FLIP | PARTICLE_STATUS_LOW_BG_PRIORITY;
     }
+
+    if (pParticle->animationDurationCounter == 1)
+        gSamusPhysics.chargingBeamDma = *(gCurrentParticleEffectOamFramePointer - 1);
 }
 
 /**
@@ -737,6 +749,9 @@ void ParticleShootingBeamDiagDownLeft(struct ParticleEffect* pParticle)
         pParticle->stage++;
         pParticle->status |= PARTICLE_STATUS_LOW_BG_PRIORITY;
     }
+
+    if (pParticle->animationDurationCounter == 1)
+        gSamusPhysics.chargingBeamDma = *(gCurrentParticleEffectOamFramePointer - 1);
 }
 
 /**
@@ -759,6 +774,9 @@ void ParticleShootingBeamDiagDownRight(struct ParticleEffect* pParticle)
         pParticle->stage++;
         pParticle->status |= (PARTICLE_STATUS_X_FLIP | PARTICLE_STATUS_LOW_BG_PRIORITY);
     }
+
+    if (pParticle->animationDurationCounter == 1)
+        gSamusPhysics.chargingBeamDma = *(gCurrentParticleEffectOamFramePointer - 1);
 }
 
 /**
@@ -781,6 +799,9 @@ void ParticleShootingBeamUpLeft(struct ParticleEffect* pParticle)
         pParticle->stage++;
         pParticle->status |= PARTICLE_STATUS_LOW_BG_PRIORITY;
     }
+
+    if (pParticle->animationDurationCounter == 1)
+        gSamusPhysics.chargingBeamDma = *(gCurrentParticleEffectOamFramePointer - 1);
 }
 
 /**
@@ -803,6 +824,9 @@ void ParticleShootingBeamUpRight(struct ParticleEffect* pParticle)
         pParticle->stage++;
         pParticle->status |= (PARTICLE_STATUS_X_FLIP | PARTICLE_STATUS_LOW_BG_PRIORITY);
     }
+
+    if (pParticle->animationDurationCounter == 1)
+        gSamusPhysics.chargingBeamDma = *(gCurrentParticleEffectOamFramePointer - 1);
 }
 
 /**
@@ -825,6 +849,9 @@ void ParticleShootingBeamDownLeft(struct ParticleEffect* pParticle)
         pParticle->stage++;
         pParticle->status |= PARTICLE_STATUS_LOW_BG_PRIORITY;
     }
+
+    if (pParticle->animationDurationCounter == 1)
+        gSamusPhysics.chargingBeamDma = *(gCurrentParticleEffectOamFramePointer - 1);
 }
 
 /**
@@ -847,6 +874,9 @@ void ParticleShootingBeamDownRight(struct ParticleEffect* pParticle)
         pParticle->stage++;
         pParticle->status |= (PARTICLE_STATUS_X_FLIP | PARTICLE_STATUS_LOW_BG_PRIORITY);
     }
+
+    if (pParticle->animationDurationCounter == 1)
+        gSamusPhysics.chargingBeamDma = *(gCurrentParticleEffectOamFramePointer - 1);
 }
 
 /**
@@ -1892,6 +1922,9 @@ void ParticleChargingBeam(struct ParticleEffect* pParticle)
 
             APPLY_DELTA_TIME_INC(pParticle->frameCounter);
     }
+
+    if (pParticle->animationDurationCounter == 1)
+        gSamusPhysics.chargingBeamDma = *(gCurrentParticleEffectOamFramePointer - 1);
 }
 
 /**

@@ -48,7 +48,7 @@ static const u16 sEnemyDropOam_Missile_Frame0[OAM_DATA_SIZE(1)] = {
 
 static const u16 sEnemyDropOam_Missile_Frame1[OAM_DATA_SIZE(1)] = {
     1,
-    OAM_ENTRY(-4, -8, OAM_DIMS_8x16, OAM_NO_FLIP, 0x190, 4, 0)
+    OAM_ENTRY(-4, -8, OAM_DIMS_8x16, OAM_NO_FLIP, 0x1de, 4, 0)
 };
 
 static const u16 sEnemyDropOam_SuperMissile_Frame0[OAM_DATA_SIZE(1)] = {
@@ -58,17 +58,17 @@ static const u16 sEnemyDropOam_SuperMissile_Frame0[OAM_DATA_SIZE(1)] = {
 
 static const u16 sEnemyDropOam_SuperMissile_Frame1[OAM_DATA_SIZE(1)] = {
     1,
-    OAM_ENTRY(-4, -8, OAM_DIMS_8x16, OAM_NO_FLIP, 0x191, 4, 0)
+    OAM_ENTRY(-4, -8, OAM_DIMS_8x16, OAM_NO_FLIP, 0x1df, 4, 0)
 };
 
 static const u16 sEnemyDropOam_PowerBomb_Frame0[OAM_DATA_SIZE(1)] = {
     1,
-    OAM_ENTRY(-4, -4, OAM_DIMS_8x8, OAM_NO_FLIP, 0x14b, 4, 0)
+    OAM_ENTRY(-4, -4, OAM_DIMS_8x8, OAM_NO_FLIP, 0x1ca, 4, 0)
 };
 
 static const u16 sEnemyDropOam_PowerBomb_Frame1[OAM_DATA_SIZE(1)] = {
     1,
-    OAM_ENTRY(-4, -4, OAM_DIMS_8x8, OAM_NO_FLIP, 0x16c, 4, 0)
+    OAM_ENTRY(-4, -4, OAM_DIMS_8x8, OAM_NO_FLIP, 0x1eb, 4, 0)
 };
 
 static const u16 sEnemyDropOam_MultipleLargeEnergySlot1_Frame0[OAM_DATA_SIZE(3)] = {

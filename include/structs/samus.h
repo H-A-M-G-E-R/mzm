@@ -71,6 +71,7 @@ struct SamusPhysics {
     const u16* pBodyOam;
     const u8* pShouldersGfx;
     u16 shoulderGfxSize;
+    u8 chargingBeamDma; // fits right there without changing the struct size
     const u8* pTorsoGfx;
     u16 torsoGfxSize;
     const u8* pLegsGfx;
